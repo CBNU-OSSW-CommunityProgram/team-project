@@ -21,17 +21,10 @@
 		"html",
 		"css",
 		"javascript",
-		"accessibility",
-		"web components",
 		"pwa",
 		"build tools",
-		"frameworks",
-		"testing",
-		"architecture",
 		"design",
-		"ux",
-		"algorithms",
-		"backend"
+		"ux"
 	],
 	"scripts": {
 		"serve": "npx servor . index.html 1614 --browse",
