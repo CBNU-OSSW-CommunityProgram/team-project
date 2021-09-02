@@ -4,7 +4,7 @@ export const designAndUXCollection = {
 		{
 			skills: [
 				{
-					name: "Color Theory",
+					name: "qdwd",
 					description: {
 						text: "Learn about color theory and how you can make your own color schemes.",
 						links: [
@@ -18,7 +18,7 @@ export const designAndUXCollection = {
 					},
 					skills: [
 						{
-							name: "Color Wheel",
+							name: "chochan gochooo man",
 							description: {
 								text: "Learn how to use the color wheel when making a color scheme.",
 								links: [
