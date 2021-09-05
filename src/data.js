@@ -1,6 +1,6 @@
 import {fundamentalsCollection} from "./data/fundamentals.js";
 import {pwaCollection} from "./data/pwa.js";
-import {buildtoolsCollection} from "./data/build-tools.js";
+import {virtualrealityCollection} from "./data/virtual-reality.js";
 import {designAndUXCollection} from "./data/design-and-ux.js";
 
 /**
@@ -9,6 +9,6 @@ import {designAndUXCollection} from "./data/design-and-ux.js";
 export const collections = [
 	fundamentalsCollection,
 	pwaCollection,
-	buildtoolsCollection,
+	virtualrealityCollection,
 	designAndUXCollection,
 ];
