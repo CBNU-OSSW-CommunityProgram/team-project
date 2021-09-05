@@ -2,7 +2,7 @@ export const virtualrealityCollection = {
 	name: "Virtual Reality",
 	areas: [
 		{
-			name: "3D Conents",
+			name: "3D Contents",
 			skills: [
 				{
 					name: "Easy Course",
@@ -73,7 +73,7 @@ export const virtualrealityCollection = {
 							}
 						},
 						{
-							name: "VR Sound ",
+							name: "VR Sound",
 							description: {
 								text: "Production of VR sound based on understanding the sound of virtual reality contents",
 								links: [
@@ -86,13 +86,13 @@ export const virtualrealityCollection = {
 							}
 						},
 						{
-							name: "ML-Agnet",
+							name: "ML-Agent",
 							description: {
-								text: "Learning ability to assign the artificial intelligence in content - using ML-Agnet",
+								text: "Learning ability to assign the artificial intelligence in content - using ML-Agent",
 								links: [
 									["What is Unity ML-Agent?", "https://unity.com/kr/products/machine-learning-agents"],
 									["Github - Unity ML-Agent Toolkit", "https://github.com/Unity-Technologies/ml-agents"],
-									["ML-Agnet - Learn", "https://unity3dstudy.com/2020/08/21/MummyBasic-for-ML-Agents-01/"],
+									["ML-Agent - Learn", "https://unity3dstudy.com/2020/08/21/MummyBasic-for-ML-Agents-01/"],
 								]
 							}
 						},
