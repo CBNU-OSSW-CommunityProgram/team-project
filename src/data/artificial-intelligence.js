@@ -89,7 +89,7 @@ export const artificialintelligence = {
           },
           skills: [
             {
-              name: "Discoverable Content",
+              name: "RNN",
               description: {
                 text: "Learn how to structure your HTML in a way that provides a rich experience when sharing it online.",
                 links: [
