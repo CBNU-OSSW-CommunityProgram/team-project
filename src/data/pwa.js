@@ -23,56 +23,188 @@ export const pwaCollection = {
               ],
             ],
           },
+          skills: [
+            {
+              name: "Syntax",
+              description: {
+                text: "Learn the basics of HTML and get comfortable with it's syntax and main concepts.",
+                links: [
+                  [
+                    "MDN - HTML Basics",
+                    "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics",
+                  ],
+                  [
+                    "MDN - Introduction to HTML",
+                    "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML",
+                  ],
+                  [
+                    "Codecademy - Learn HTML",
+                    "https://www.codecademy.com/learn/learn-html",
+                  ],
+                ],
+              },
+            },
+            {
+              name: "Basic Tags",
+              description: {
+                text: "Get familiar with the basic HTML tags",
+                links: [
+                  [
+                    "MDN - HTML elements reference",
+                    "https://developer.mozilla.org/en-US/docs/Web/HTML/Element",
+                  ],
+                  [
+                    "Tutorialspoint - Basic HTML tags",
+                    "https://www.tutorialspoint.com/html/html_basic_tags.htm",
+                  ],
+                  [
+                    "Elated - First 10 HTML tags",
+                    "https://www.elated.com/first-10-html-tags/",
+                  ],
+                  [
+                    "W3Schools - HTML tags",
+                    "https://www.w3schools.com/tags/ref_byfunc.asp",
+                  ],
+                ],
+              },
+            },
+          ],
         },
         {
           name: "CSS",
           description: {
-            text: "Learn what routing means in single page applications.",
+            text: "Learn the basics of CSS and get comfortable with it's syntax and main concepts.",
             links: [
               [
-                "How Single-Page Applications Work",
-                "https://blog.pshrmn.com/how-single-page-applications-work/",
+                "MDN - CSS Basics",
+                "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics",
               ],
               [
-                "Static Apps - Routing URLs in Static Web Apps",
-                "https://staticapps.org/articles/routing-urls-in-static-apps/",
+                "W3Schools - CSS Tutorial",
+                "https://www.w3schools.com/css/default.asp",
               ],
               [
-                "Routing With Single Page Applications or Client Side Routing",
-                "https://pennyforyourcode.com/tldr-routing-with-single-page-applications-or-client-side-routing-327626cdc5dd",
+                "Supercharged - CSS Selectors",
+                "https://www.youtube.com/watch?v=IKho_xDKaLw",
+              ],
+              [
+                "MDN - CSS first steps",
+                "https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps",
+              ],
+              [
+                "MDN - CSS building blocks",
+                "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks",
+              ],
+              [
+                "MDN - CSS values and units",
+                "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units",
+              ],
+              [
+                "MDN - CSS Syntax",
+                "https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax",
               ],
             ],
           },
           skills: [
             {
-              name: "History API",
+              name: "Syntax Css",
               description: {
-                text: "Learn how to use the history API to add single page applicaiton routing to your web app.",
+                text: "Learn the basics of CSS and get comfortable with it's syntax and main concepts.",
                 links: [
                   [
-                    "MDN - Working with the History API",
-                    "https://developer.mozilla.org/en-US/docs/Web/API/History_API/Working_with_the_History_API",
+                    "MDN - CSS Basics",
+                    "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics",
                   ],
                   [
-                    "MDN - History API",
-                    "https://developer.mozilla.org/en-US/docs/Web/API/History_API",
+                    "W3Schools - CSS Tutorial",
+                    "https://www.w3schools.com/css/default.asp",
                   ],
                   [
-                    "Single-page application routing in vanilla JavaScript",
-                    "https://medium.com/@george.norberg/history-api-getting-started-36bfc82ddefc",
+                    "Supercharged - CSS Selectors",
+                    "https://www.youtube.com/watch?v=IKho_xDKaLw",
                   ],
                   [
-                    "CSS Tricks - Using the HTML5 History API",
-                    "https://css-tricks.com/using-the-html5-history-api/",
-                  ],
-                  ["The History API", "https://flaviocopes.com/history-api/"],
-                  [
-                    "Google Devs - History API: Scroll Restoration",
-                    "https://developers.google.com/web/updates/2015/09/history-api-scroll-restoration",
+                    "MDN - CSS first steps",
+                    "https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps",
                   ],
                   [
-                    "MDN - The Document Base URL element",
-                    "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base",
+                    "MDN - CSS building blocks",
+                    "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks",
+                  ],
+                  [
+                    "MDN - CSS values and units",
+                    "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units",
+                  ],
+                  [
+                    "MDN - CSS Syntax",
+                    "https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax",
+                  ],
+                ],
+              },
+            },
+            {
+              name: "Colors",
+              description: {
+                text: "Learn the different ways you can define colors in CSS.",
+                links: [
+                  [
+                    "MDN - Color",
+                    "https://developer.mozilla.org/en-US/docs/Web/CSS/color",
+                  ],
+                  [
+                    "MDN - <color>",
+                    "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value",
+                  ],
+                  [
+                    "W3Schools - CSS Colors",
+                    "https://www.w3schools.com/css/css_colors.asp",
+                  ],
+                ],
+              },
+            },
+            {
+              name: "Flex",
+              description: {
+                text: "Learn how to create layouts using flexbox.",
+                links: [
+                  [
+                    "MDN - Flexbox",
+                    "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox",
+                  ],
+                  [
+                    "A Complete Guide to Flexbox",
+                    "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+                  ],
+                  [
+                    "MDN - Flexbox",
+                    "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox",
+                  ],
+                  ["Flexbox Froggy", "https://flexboxfroggy.com/"],
+                  ["Flexbox Defense", "http://flexboxdefense.com"],
+                ],
+              },
+            },
+            {
+              name: "Grid",
+              description: {
+                text: "Learn how to create layouts using CSS Grid.",
+                links: [
+                  [
+                    "MDN - Grids",
+                    "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids",
+                  ],
+                  [
+                    "A Complete Guide to CSS Grid",
+                    "https://css-tricks.com/snippets/css/complete-guide-grid/",
+                  ],
+                  [
+                    "MDN - CSS Grid",
+                    "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout",
+                  ],
+                  ["CSS Grid Garden", "https://cssgridgarden.com/"],
+                  [
+                    "Supercharged - CSS Grids",
+                    "https://www.youtube.com/watch?v=AqwPrR7hklE",
                   ],
                 ],
               },
@@ -82,212 +214,170 @@ export const pwaCollection = {
         {
           name: "JAVASCRIPT",
           description: {
-            text: "Learn how to store data for your web app.",
+            text: "Learn the basics of Javascript and get comfortable with it's syntax and main concepts.",
             links: [
               [
-                "MDN - Storage",
-                "https://developer.mozilla.org/en-US/docs/Web/API/Storage_API",
+                "MDN - Javascript First Steps",
+                "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps",
               ],
               [
-                "MDN - Web Storage API",
-                "https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API",
+                "MDN - Javascript Basics",
+                "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics",
               ],
               [
-                "MDN - Cookies",
-                "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies",
+                "MDN - Javascript Building Blocks",
+                "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks",
               ],
-              [
-                "MDN - IndexedDB API",
-                "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API",
-              ],
-              [
-                "Google Devs - View And Edit Local Storage",
-                "https://developers.google.com/web/tools/chrome-devtools/storage/localstorage",
-              ],
-              [
-                "MDN - Client-side storage",
-                "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage",
-              ],
-            ],
-          },
-        },
-        {
-          name: "Service Workers",
-          description: {
-            text: "Learn how to register a service worker to provide a rich native-like experience.",
-            links: [
-              [
-                "Google Devs - Service Workers: an Introduction",
-                "https://developers.google.com/web/fundamentals/primers/service-workers",
-              ],
-              [
-                "Google Devs - The Service Worker Lifecycle",
-                "https://developers.google.com/web/fundamentals/primers/service-workers/lifecycle",
-              ],
-              [
-                "Google Devs - Service Worker Registration",
-                "https://developers.google.com/web/fundamentals/primers/service-workers/registration",
-              ],
-              [
-                "MDN - Service Worker API",
-                "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers",
-              ],
-              [
-                "Google Devs - High-performance service worker loading",
-                "https://developers.google.com/web/fundamentals/primers/service-workers/high-performance-loading",
-              ],
-              [
-                "Codelabs - Scripting the service worker",
-                "https://codelabs.developers.google.com/codelabs/pwa-scripting-the-service-worker/index.html?index=..%2F..dev-pwa-training#0",
-              ],
-              [
-                "Codelabs - Caching files with the service worker",
-                "https://codelabs.developers.google.com/codelabs/pwa-caching-service-worker/index.html?index=..%2F..dev-pwa-training#0",
-              ],
-              [
-                "Codelabs - Adding a Service Worker",
-                "https://developers.google.com/web/fundamentals/codelabs/offline",
-              ],
-              [
-                "Google Devs - Debugging Service Workers",
-                "https://developers.google.com/web/fundamentals/codelabs/debugging-service-workers",
-              ],
-              [
-                "Caching best practices",
-                "https://jakearchibald.com/2016/caching-best-practices/",
-              ],
+              /* ["You might not need jQuery", "http://youmightnotneedjquery.com/"],*/
             ],
           },
           skills: [
             {
-              name: "Offline first",
+              name: "Spread",
               description: {
-                text: "Learn how to make your web app working offline with an offline first approach.",
+                text: "Learn how the spread syntax can help you when working with arrays.",
                 links: [
                   [
-                    "Google Devs - The Offline Cookbook",
-                    "https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook",
+                    "MDN - Spread syntax",
+                    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax",
                   ],
                   [
-                    "Udacity - Offline Web Applications",
-                    "https://www.udacity.com/course/offline-web-applications--ud899",
-                  ],
-                  ["Offline First", "http://offlinefirst.org/"],
-                  [
-                    "Google Devs - Offline UX Considerations",
-                    "https://developers.google.com/web/fundamentals/instant-and-offline/offline-ux",
+                    "Freecodecamp - An introduction to Spread syntax",
+                    "https://www.freecodecamp.org/news/an-introduction-to-spread-syntax-in-javascript-fba39595922c/",
                   ],
                   [
-                    "Google Devs - Offline Storage for Progressive Web Apps",
-                    "https://developers.google.com/web/fundamentals/instant-and-offline/web-storage/offline-for-pwa",
-                  ],
-                  [
-                    "Codelabs - Offline quickstart",
-                    "https://codelabs.developers.google.com/codelabs/pwa-offline-quickstart/index.html?index=..%2F..dev-pwa-training#0",
-                  ],
-                  [
-                    "Codelabs - Adding a Service Worker and Offline into your Web App",
-                    "https://codelabs.developers.google.com/codelabs/offline/index.html?index=..%2F..%2Findex#0",
-                  ],
-                  [
-                    "Supercharged - Offline Links",
-                    "https://www.youtube.com/watch?v=7fnpsF9tMXc",
-                  ],
-                  [
-                    "MDN - Online and offline events",
-                    "https://developer.mozilla.org/en-US/docs/Web/API/NavigatorOnLine/Online_and_offline_events",
-                  ],
-                  [
-                    "MDN - Making PWAs work offline",
-                    "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Offline_Service_workers",
+                    "Object rest and spread properties",
+                    "https://v8.dev/features/object-rest-spread",
                   ],
                 ],
               },
             },
             {
-              name: "Push notifications",
+              name: "Destructuring",
               description: {
-                text: "Learn how to add push notifications to your web app.",
+                text: "Learn how destructuring can help you when working with objects.",
                 links: [
                   [
-                    "Google Devs - Adding Push Notifications to a Web App",
-                    "https://developers.google.com/web/fundamentals/codelabs/push-notifications/",
+                    "MDN - Destructuring assignment",
+                    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment",
                   ],
                   [
-                    "MDN - How to make PWAs re-engageable",
-                    "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Re-engageable_Notifications_Push",
+                    "MDN - ES6 In Depth: Destructuring",
+                    "https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/",
                   ],
                   [
-                    "MDN - Notifications API",
-                    "https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API",
+                    "javascript.info - Destructuring assignment",
+                    "https://javascript.info/destructuring-assignment",
+                  ],
+                ],
+              },
+            },
+            {
+              name: "DOM",
+              description: {
+                text: "Learn how the HTML is represented as objects that comprise the structure and content of a document.",
+                links: [
+                  [
+                    "MDN - DOM Introduction",
+                    "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction",
+                  ],
+                  [
+                    "Freecodecamp - What's the DOM",
+                    "https://www.freecodecamp.org/news/whats-the-document-object-model-and-why-you-should-know-how-to-use-it-1a2d0bc5429d/",
+                  ],
+                  [
+                    "Introduction to the DOM",
+                    "https://learn.co/lessons/introduction-to-the-dom",
+                  ],
+                  ["htmldom.dev", "https://htmldom.dev/"],
+                ],
+              },
+            },
+            {
+              name: "Events",
+              description: {
+                text: "Learn how to dispatch and listen for events.",
+                links: [
+                  [
+                    "MDN - Introduction to events",
+                    "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events",
+                  ],
+                  [
+                    "MDN - Creating and triggering events",
+                    "https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Creating_and_triggering_events",
+                  ],
+                  [
+                    "Event Bubbling and Event Capturing in JavaScript",
+                    "https://medium.com/@vsvaibhav2016/event-bubbling-and-event-capturing-in-javascript-6ff38bec30e",
+                  ],
+                  [
+                    "Freecodecamp - A simplified explanation of event propagation",
+                    "https://www.freecodecamp.org/news/a-simplified-explanation-of-event-propagation-in-javascript-f9de7961a06e/",
+                  ],
+                  [
+                    "JavaScript Events Explained",
+                    "https://flaviocopes.com/javascript-events/",
+                  ],
+                  [
+                    "MDN - addEventListener()",
+                    "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener",
+                  ],
+                  [
+                    "MDN - removeEventListener(",
+                    "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener",
+                  ],
+                  [
+                    "Event order",
+                    "https://www.quirksmode.org/js/events_order.html",
+                  ],
+                ],
+              },
+            },
+            {
+              name: "Objects",
+              description: {
+                text: "Learn how to create and use objects.",
+                links: [
+                  [
+                    "MDN - Introducing JavaScript objects",
+                    "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects",
+                  ],
+                  [
+                    "MDN - Working with objects",
+                    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects",
+                  ],
+                  [
+                    "javascript.info - Objects",
+                    "https://javascript.info/object",
+                  ],
+                  [
+                    "MDN - this",
+                    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this",
+                  ],
+                  [
+                    "W3Schools - The JavaScript this Keyword",
+                    "https://www.w3schools.com/js/js_this.asp",
+                  ],
+                  [
+                    "MDN - bind()",
+                    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind",
+                  ],
+                  [
+                    "MDN - new operator",
+                    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new",
+                  ],
+                  [
+                    "MDN - new.target",
+                    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new.target",
+                  ],
+                  [
+                    "Data Structures: Objects and Arrays",
+                    "https://scotch.io/courses/10-need-to-know-javascript-concepts/data-structures-objects-and-arrays",
                   ],
                 ],
               },
             },
           ],
-        },
-        {
-          name: "Web App manifest",
-          description: {
-            text: "Learn how to tell the browser about your web app and how it should behave when 'installed' by creating a web app manifest.",
-            links: [
-              [
-                "Google Devs - Web App Manifest",
-                "https://developers.google.com/web/fundamentals/web-app-manifest/",
-              ],
-              [
-                "web.dev - Add a web app manifest",
-                "https://web.dev/add-manifest/",
-              ],
-              ["W3C - Web App Manifest", "https://www.w3.org/TR/appmanifest/"],
-              [
-                "MDN - How to make PWAs installable",
-                "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Installable_PWAs",
-              ],
-            ],
-          },
-        },
-        {
-          name: "Add to homescreen",
-          description: {
-            text: "Learn how to make your web app installable.",
-            links: [
-              ["web.dev - Installable", "https://web.dev/installable"],
-              [
-                "Google Devs - App Install Banners",
-                "https://developers.google.com/web/fundamentals/app-install-banners/",
-              ],
-              [
-                "MDN - Add to Home screen",
-                "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Add_to_home_screen",
-              ],
-            ],
-          },
-        },
-        {
-          name: "Pointer Events",
-          description: {
-            text: "Learn how to handle inputs from pointing devices such as a mouse, pen/stylus or touch.",
-            links: [
-              [
-                "MDN - Pointer Events",
-                "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
-              ],
-              [
-                "Google Devs - Add Touch to Your Site",
-                "https://developers.google.com/web/fundamentals/design-and-ux/input/touch",
-              ],
-              [
-                "Google Devs - Pointing the Way Forward",
-                "https://developers.google.com/web/updates/2016/10/pointer-events",
-              ],
-              [
-                "Google Devs - Touch Action Options",
-                "https://developers.google.com/web/updates/2016/10/touch-action",
-              ],
-              ["W3C - Pointer Events", "https://www.w3.org/TR/pointerevents/"],
-            ],
-          },
         },
       ],
     },
@@ -295,74 +385,79 @@ export const pwaCollection = {
       name: "React.js",
       skills: [
         {
-          name: "App shell",
+          name: "Life cycle",
           description: {
             text: "Learn how to use an app shell to provide an instant and reliable experience to users on repeat visits",
             links: [
               [
-                "Google Devs - The App Shell Model",
-                "https://developers.google.com/web/fundamentals/architecture/app-shell",
+                "React - Life cycle",
+                "https://ko.reactjs.org/docs/state-and-lifecycle.html",
               ],
               [
-                "MDN - Architecture of an app",
-                "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/App_structure",
+                "W3Schools - Life cycle",
+                "https://www.w3schools.com/react/react_lifecycle.asp",
               ],
             ],
           },
+          skills: [
+            {
+              name: "Mount",
+              description: {
+                text: "Learn about Mount of Vue.js instance in Life cycle.",
+                links: [
+                  [
+                    "React - Life cycle",
+                    "https://ko.reactjs.org/docs/state-and-lifecycle.html",
+                  ],
+                  [
+                    "Velog - Life cycle - Mount",
+                    "https://velog.io/@cyranocoding/React-Life-Cycle-%EC%8B%9C%EB%A6%AC%EC%A6%88Mount-%ED%8E%B8",
+                  ],
+                ],
+              },
+            },
+            {
+              name: "Update",
+              description: {
+                text: "Learn how to minimize the overall download size by optimizing and compressing resources.",
+                links: [
+                  [
+                    "React - Life cycle",
+                    "https://ko.reactjs.org/docs/state-and-lifecycle.html",
+                  ],
+                  [
+                    "Velog - Life cycle - Update",
+                    "https://velog.io/@cyranocoding/React-Life-Cycle-%EC%8B%9C%EB%A6%AC%EC%A6%88Mount-%ED%8E%B8-tkjzpagfsu",
+                  ],
+                ],
+              },
+            },
+            {
+              name: "Unmount",
+              description: {
+                text: "Learn how to minimize the overall download size by optimizing and compressing resources.",
+                links: [
+                  [
+                    "React - Life cycle",
+                    "https://ko.reactjs.org/docs/state-and-lifecycle.html",
+                  ],
+                  [
+                    "Velog - Life cycle - Unmount",
+                    "https://velog.io/@cyranocoding/React-Life-Cycle-%EC%8B%9C%EB%A6%AC%EC%A6%88Mount-%ED%8E%B8-tkjzpagfsu",
+                  ],
+                ],
+              },
+            },
+          ],
         },
         {
-          name: "Render-Blocking Resources",
-          description: {
-            text: "Learn about render-blocking resources and why they are bad for the user-experience.",
-            links: [
-              [
-                "MDN - Render-blocking resources",
-                "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Loading#Render-blocking_resources",
-              ],
-              [
-                "Google Devs - Render-Blocking Resources",
-                "https://developers.google.com/web/tools/lighthouse/audits/blocking-resources",
-              ],
-            ],
-          },
-        },
-        {
-          name: "Compression",
-          description: {
-            text: "Learn how to minimize the overall download size by optimizing and compressing resources.",
-            links: [
-              [
-                "Google Devs - Optimizing Encoding and Transfer Size",
-                "https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer",
-              ],
-              [
-                "Google Devs - Replace Animated GIFs with Video",
-                "https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/",
-              ],
-              ["Squoosh", "https://squoosh.app/"],
-              [
-                "Google Devs - Text Content",
-                "https://developers.google.com/web/fundamentals/performance/get-started/textcontent-3",
-              ],
-              [
-                "Google Devs - Optimize Images",
-                "https://developers.google.com/web/tools/lighthouse/audits/optimize-images",
-              ],
-              [
-                "web.dev - Reduce JavaScript execution time",
-                "https://web.dev/bootup-time/",
-              ],
-            ],
-          },
-        },
-        {
-          name: "Performance metrics",
+          name: "Component",
           description: {
             text: "Learn why it is important to measure performance and which metrics you should prioritize.",
             links: [
               [
-                "Google Devs - User-centric Performance Metrics",
-                "https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics",
+                "React - React.component",
+                "https://ko.reactjs.org/docs/react-component.html",
               ],
               [
                 "Udacity - Website Performance Optimization",
@@ -376,7 +471,7 @@ export const pwaCollection = {
           },
           skills: [
             {
-              name: "Largest Contentful Paint",
+              name: "Event",
               description: {
                 text: "Learn about Largest Contentful Paint and how it impacts the overall performance.",
                 links: [
@@ -396,7 +491,7 @@ export const pwaCollection = {
               },
             },
             {
-              name: "Total Blocking Time",
+              name: "Controlled NonControlled Components",
               description: {
                 text: "Learn about Total Blocking Time and how it impacts the overall performance.",
                 links: [
@@ -409,23 +504,24 @@ export const pwaCollection = {
               },
             },
             {
-              name: "Time to Interactive",
+              name: "Communication",
               description: {
-                text: "Learn about Time to Interactive and how it impacts the overall performance.",
+                text: "Learn about Communication between components.",
                 links: [
                   [
-                    "web.dev - Total Blocking Time",
-                    "https://web.dev/lighthouse-total-blocking-time/",
+                    "React - React.component",
+                    "https://ko.reactjs.org/docs/react-component.html",
                   ],
                   [
-                    "Google Devs - Time to Interactive",
-                    "https://developers.google.com/web/tools/lighthouse/audits/time-to-interactive",
+                    "Velog - Communication between components",
+                    "https://velog.io/@jungjh123456/React-Hooks-3",
                   ],
                 ],
               },
             },
           ],
         },
+        // 여기까지
         {
           name: "Lazy Loading",
           description: {
