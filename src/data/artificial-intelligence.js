@@ -312,7 +312,7 @@ export const artificialintelligence = {
               },
             },
             {
-              name: "Async/await",
+              name: "Image classification",
               description: {
                 text: "Learn how to use the async and await keywords to make it easier to write asynchronous code.",
                 links: [
