@@ -1,209 +1,154 @@
-<!-- ⚠️ This README has been generated from the file(s) "blueprint.md" ⚠️--><h1 align="center">Web Skills</h1>
-<p align="center">
-	IT jobs curriculam is a visual overview of useful skills to learn as a web developer. Go to <a href="https://andreasbm.github.io/web-skills" target="_blank" aria-label="Link to Web Skills">https://andreasbm.github.io/web-skills</a> to check out the visual overview or scroll through this readme to get the overview <a href="#-fundamentals" target="_blank" aria-label="Link to list of skills">as a list</a>. If you like the project you are very welcome to <a href="https://github.com/andreasbm/web-skills/stargazers" aria-label="Become stargazer link">become a stargazer 🤩</a>
-</p> 
-<p align="center">
-	<a href="http://andreasbm.github.io/web-skills" target="_blank">
-		<img src="https://raw.githubusercontent.com/andreasbm/web-skills/master/demo.gif" alt="Web Skills Demo" width="800" />
-	</a>
-</p>
-<br />
-<details>
-<summary>📖 Table of Contents</summary>
-<br />
+# 🐰우리들의 IT 관심분야 커리큘럼🐹
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
+각 팀원들의 IT 관심분야에 대한 학습 커리큘럼을 제작해보았습니다.
+관심분야 지식 습득에 필요한 큰 목차에 따라 간단한 학습 커리큘럼을 확인할 수 있습니다.
 
-## ➤ Table of Contents
+![demo](https://user-images.githubusercontent.com/62797441/132237669-a2e9edf9-6155-4c46-86f2-d0c3fd9f9b2c.gif)
 
-- [➤ FAQ](#-faq)
-  - [What is Web Skills?](#what-is-web-skills)
-  - [How did you choose the skills?](#how-did-you-choose-the-skills)
-  - [How can I support you?](#how-can-i-support-you)
-  - [How can I get involved?](#how-can-i-get-involved)
-  - [How can I keep track of what skills I know?](#how-can-i-keep-track-of-what-skills-i-know)
-  - [I am overwhelmed! Help me!](#i-am-overwhelmed-help-me)
-  - [Why haven't you included XYZ Technology?](#why-havent-you-included-xyz-technology)
-  - [What does the "experimental" banner mean?](#what-does-the-experimental-banner-mean)
-  - [How can I get in contact with you?](#how-can-i-get-in-contact-with-you)
-- [➤ Fundamentals](#-fundamentals)
-  - [HTML](#html)
-  - [Syntax](#syntax)
-    - [Basic Tags](#basic-tags)
-  - [Forms](#forms)
-  - [SEO](#seo)
-    - [Discoverable Content](#discoverable-content)
-  - [Svg](#svg)
-  - [Best Practices](#best-practices)
-  - [CSS](#css)
-  - [Syntax](#syntax-1)
-  - [Selectors](#selectors)
-    - [Specificity](#specificity)
-    - [Pseudo Selectors](#pseudo-selectors)
-  - [Box Model](#box-model)
-    - [Margin Collapsing](#margin-collapsing)
-  - [Colors](#colors)
-  - [Calc](#calc)
-  - [Layout](#layout)
-    - [Flex](#flex)
-    - [Grid](#grid)
-  - [Transforms](#transforms)
-    - [Animations](#animations)
-  - [Responsive Design](#responsive-design)
-    - [Media Queries](#media-queries)
-    - [Relative Units](#relative-units)
-    - [Images](#images)
-  - [CSS Variables](#css-variables)
-  - [Best Practices](#best-practices-1)
-  - [Javascript](#javascript)
-  - [Syntax](#syntax-2)
-    - [Spread](#spread)
-    - [Destructuring](#destructuring)
-  - [DOM](#dom)
-    - [DOM Manipulation](#dom-manipulation)
-  - [Events](#events)
-  - [Objects](#objects)
-    - [Prototype](#prototype)
-      - [Classes](#classes)
-  - [Regex](#regex)
-  - [Template Literals](#template-literals)
-  - [Promises](#promises)
-    - [Callbacks](#callbacks)
-    - [Async/await](#asyncawait)
-    - [Fetch](#fetch)
-  - [Web Animations](#web-animations)
-  - [Modules](#modules)
-  - [Intl](#intl)
-  - [Canvas](#canvas)
-  - [Documentation](#documentation)
-  - [Best Practices](#best-practices-2)
-  - [The Browser](#the-browser)
-  - [Standardization](#standardization)
-    - [W3C](#w3c)
-    - [TC39](#tc39)
-    - [WHATWG](#whatwg)
-    - [Specifications](#specifications)
-  - [Browser Engines](#browser-engines)
-    - [Webkit](#webkit)
-    - [Blink](#blink)
-    - [Gecko](#gecko)
-  - [HTTP](#http)
-  - [The Internet](#the-internet)
-  - [Polyfills](#polyfills)
-  - [Debugging](#debugging)
-    - [Developer console](#developer-console)
-- [➤ Progressive Webapps](#-progressive-webapps)
-  - [API's](#apis)
-  - [Storage](#storage)
-  - [Routing](#routing)
-    - [History API](#history-api)
-  - [Service Workers](#service-workers)
-    - [Offline first](#offline-first)
-    - [Push notifications](#push-notifications)
-  - [Web App manifest](#web-app-manifest)
-  - [Add to homescreen](#add-to-homescreen)
-  - [Pointer Events](#pointer-events)
-  - [Loading Performance](#loading-performance)
-  - [App shell](#app-shell)
-  - [Render-Blocking Resources](#render-blocking-resources)
-  - [Compression](#compression)
-  - [Performance metrics](#performance-metrics)
-    - [Largest Contentful Paint](#largest-contentful-paint)
-    - [Total Blocking Time](#total-blocking-time)
-    - [Time to Interactive](#time-to-interactive)
-  - [Lazy Loading](#lazy-loading)
-    - [Dynamic Import](#dynamic-import)
-    - [Offscreen images](#offscreen-images)
-  - [Critical Request Chains](#critical-request-chains)
-  - [Tree shaking](#tree-shaking)
-  - [Codesplitting](#codesplitting)
-  - [PRPL Pattern](#prpl-pattern)
-  - [Resource Prioritization](#resource-prioritization)
-  - [Caching](#caching)
-  - [Rendering Performance](#rendering-performance)
-  - [Rendering](#rendering)
-  - [Event loop](#event-loop)
-    - [Microtask](#microtask)
-    - [Stack](#stack)
-    - [Heap](#heap)
-  - [RAIL Model](#rail-model)
-    - [requestAnimationFrame](#requestanimationframe)
-    - [requestIdleCallback](#requestidlecallback)
-  - [Critical Rendering Path](#critical-rendering-path)
-  - [The Pixel Pipeline](#the-pixel-pipeline)
-    - [Style calculations](#style-calculations)
-    - [Transforms](#transforms-1)
-    - [Paint areas](#paint-areas)
-    - [Layout Trashing](#layout-trashing)
-    - [Layers](#layers)
-    - [Debounce](#debounce)
-  - [CSS Containment](#css-containment)
-  - [Web Workers](#web-workers)
-  - [Security](#security)
-  - [HTTPS](#https)
-  - [Browser Sandbox](#browser-sandbox)
-  - [OWASP](#owasp)
-    - [Cross-Site Scripting](#cross-site-scripting)
-    - [Clickjacking](#clickjacking)
-  - [Content Security Policy](#content-security-policy)
-  - [Audits](#audits-1)
-  - [Performance budgets](#performance-budgets)
-  - [Lighthouse](#lighthouse)
-  - [Chrome DevTools](#chrome-devtools)
-- [➤ Build tools](#-build-tools)
-  - [Package Managers](#package-managers)
-    - [NPM](#npm)
-    - [Yarn](#yarn)
-  - [Module Bundlers](#module-bundlers)
-    - [Rollup](#rollup)
-    - [Webpack](#webpack)
-    - [Parcel](#parcel)
-    - [Snowpack](#snowpack)
-  - [Linters and formatters](#linters-and-formatters)
-    - [Prettier](#prettier)
-    - [ESLint](#eslint)
-  - [Task Runners](#task-runners)
-    - [NPM Scripts](#npm-scripts)
-  - [Transpilers](#transpilers)
-    - [Babel](#babel)
-    - [Typescript](#typescript)
-  - [CSS Pre-processors](#css-pre-processors)
-    - [SASS](#sass)
-    - [PostCSS](#postcss)
-  - [Node.js](#nodejs)
-- [➤ Design & UX](#-design--ux)
-_ [Color Theory](#color-theory)
-_ [Color Wheel](#color-wheel)
-_ [Typography](#typography)
-_ [Font Size](#font-size)
-_ [Line Spacing](#line-spacing)
-_ [C.R.A.P](#crap)
-_ [Contrast](#contrast)
-_ [Repetition](#repetition)
-_ [Alignment](#alignment)
-_ [Proximity](#proximity)
-_ [Consistency](#consistency)
-_ [Spacing](#spacing)
-_ [Error Handling](#error-handling)
-_ [Loading](#loading)
-_ [The Golden Ratio](#the-golden-ratio)
-_ [Mobile First](#mobile-first)
-_ [Hit Targets](#hit-targets)
-_ [Design Systems](#design-systems)
-_ [Material Design](#material-design)
-_ [Fluent Design](#fluent-design)
-_ [Accessibility](#accessibility)
-_ [Best Practices](#best-practices-4)
-</details>
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#contributors)
+
+# 관심분야
+
+## 인공지능
+
+`이론`
+
+- 머신러닝
+  - CNN
+- 딥러닝
+- 자연어처리
+  - RNN
+
+`스킬`
+
+- Yolo-v5
+- Python
+  - tensorflow
+  - keras
+  - pytorch
+
+`프로젝트`
+
+- 개발
+  - AI 챗봇
+  - 이미지 분류
+  - 자율주행
+
+## 프론트엔드 개발자
+
+`언어`
+
+- HTML
+  - syntax
+  - basic tags
+- CSS
+  - syntax css
+  - colors
+  - flex
+  - grid
+- JavaScript
+  - spread
+  - destructuring
+  - DOM API
+  - Events
+  - objects
+
+`React.js`
+
+- Life cycle
+  - mount
+  - Update
+  - Unmount
+- Component
+  - Event
+  - Controlled NonControlled Components
+  - Communication
+- Event Handling
+- Hook
+  - useState
+  - useEffect
+  - useRef
+- Router
+  - Pass Properties
+  - Dynamic Parameters
+  - Nested Routes
+- Redux
+
+`Vue.js`
+
+- Life cycle
+  - create
+  - Mount
+  - Update
+  - Unmount
+- Instance
+- Component
+  - Event Bus
+  - Mount
+- Router
+
+  - Nested Routes
+
+`Browser`
+
+- Blink
+- webkit
+- Gecko
+
+## VR
+
+`이론`
+
+- Easy Course
+  - Unity
+  - Contents Develop
+  - Photon network
+- Advanced Course
+  - High-end HMD
+  - VR Sount
+  - ML-Agent
+  - Visual impact
+
+`Implement VR Contents`
+
+- Set development environment
+  - Vive
+  - Oculus
+- VR Head Tracking
+- XR
+- UI
+  - NGUI
+  - UGUI
+- MR
+
+## 블록체인
+
+- explanation
+  - block-chain
+- Decentral
+  - Open-type
+  - Permission-type
+- Application-field
+  - certification
+  - Payment-and-remittance
+  - Securities-transaction
+  - Smart-Contract-Loan-Investment-Trading
+- Bitcoin
+- Digital-Note
+- Namecoin
+- Mastercoin
+- Peercoin
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#contributors)
 
 ## ➤ Contributors
 
-| [<img alt="Andreas Mehlsen" src="https://avatars1.githubusercontent.com/u/6267397?s=460&v=4" width="100">](https://twitter.com/andreasmehlsen) | [<img alt="You?" src="https://joeschmoe.io/api/v1/random" width="100">](https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md) |
-| :--------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------: |
-|                                             [Andreas Mehlsen](https://twitter.com/andreasmehlsen)                                              |                                 [You?](https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md)                                  |
-|                                                                       🔥                                                                       |                                                                                                                                          |
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#license)
+| <img alt="김동용" src="https://user-images.githubusercontent.com/62797441/132240245-2158f15b-f08e-4dac-9832-39a78627cd0a.jpeg" width="100">|
+<img alt="신주영" src="https://user-images.githubusercontent.com/62797441/132240389-dcbee6f4-66f2-4102-b885-8d649cd6a804.jpeg" width="100"> |
+<img alt="김지인" src="https://user-images.githubusercontent.com/62797441/132240497-e52c6069-87a8-4914-93e6-84868aa997ea.jpeg" width="100" height="100"> |
+<img alt="오병욱" src="https://user-images.githubusercontent.com/62797441/132240614-3be5133c-cf01-4d09-8e38-dc6a4a040b7c.jpeg" width="100">|
+|:--------------------------------------------------:|:--------------------------------------------------:|:--------------------------------------------------:|:--------------------------------------------------:|
+| [김동용](https://github.com/kingyong9169) | [신주영](https://github.com/juyeong-chungbuk) | [김지인](https://github.com/jin0825) | [오병욱](https://github.com/ohby00) |
 
 ## ➤ License
 
