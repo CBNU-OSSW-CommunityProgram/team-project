@@ -332,7 +332,7 @@ export const artificialintelligence = {
               },
             },
             {
-              name: "Fetch",
+              name: "Autonomous driving",
               description: {
                 text: "Learn how to use the fetch API to fetch data.",
                 links: [
