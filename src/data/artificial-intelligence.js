@@ -51,7 +51,7 @@ export const artificialintelligence = {
           ],
         },
         {
-          name: "Forms",
+          name: "Deep Learning",
           description: {
             text: "Learn how to design efficient forms, validating them effectively and keeping the user informed along the way.",
             links: [
