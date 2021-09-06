@@ -71,7 +71,7 @@ export const artificialintelligence = {
           },
         },
         {
-          name: "SEO",
+          name: "Natural Language Processing",
           description: {
             text: "Learn how to make your content search-friendly.",
             links: [
