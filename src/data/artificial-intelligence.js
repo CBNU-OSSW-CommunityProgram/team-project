@@ -25,7 +25,7 @@ export const artificialintelligence = {
           },
           skills: [
             {
-              name: "Basic Tags",
+              name: "CNN",
               description: {
                 text: "Get familiar with the basic HTML tags",
                 links: [
