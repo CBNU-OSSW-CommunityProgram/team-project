@@ -2,7 +2,7 @@ export const artificialintelligence = {
   name: "artificial intelligence",
   areas: [
     {
-      name: "theory",
+      name: "Theory",
       skills: [
         {
           name: "Machine Learning",
