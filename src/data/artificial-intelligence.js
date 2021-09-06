@@ -292,7 +292,7 @@ export const artificialintelligence = {
           },
           skills: [
             {
-              name: "Callbacks",
+              name: "AI chatbot",
               description: {
                 text: "Learn how to use callbacks and why they are not always a good idea.",
                 links: [
