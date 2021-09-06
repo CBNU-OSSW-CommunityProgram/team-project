@@ -184,7 +184,7 @@ export const artificialintelligence = {
           },
           skills: [
             {
-              name: "Specificity",
+              name: "tensorflow",
               description: {
                 text: "Learn what specificity means and how to use it when writing CSS.",
                 links: [
