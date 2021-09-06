@@ -120,9 +120,9 @@ export const virtualrealityCollection = {
 			name:"Implement VR Contents",
 			skills: [
 				{
-					name: "Set production preferences",
+					name: "Set development environment",
 					description: {
-						text: "Learn how to set production preferences before implementing VR contents",
+						text: "Learn how to set development environment before implementing VR contents",
 						links: [
 							["Application Setting for VR", "https://partner.steamgames.com/doc/features/steamvr/settings"],
 							["How to Setup and Configure Remote Play", "https://www.amd.com/ko/support/kb/faq/dh-030"],
