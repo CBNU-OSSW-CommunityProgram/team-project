@@ -1,10 +1,10 @@
 export const designAndUXCollection = {
-	name: "Design & UX",
+	name: "block-chain",
 	areas: [
 		{
 			skills: [
 				{
-					name: "Color Theory",
+					name: "explanation",
 					description: {
 						text: "Learn about color theory and how you can make your own color schemes.",
 						links: [
@@ -18,7 +18,7 @@ export const designAndUXCollection = {
 					},
 					skills: [
 						{
-							name: "Color Wheel",
+							name: "block-chain",
 							description: {
 								text: "Learn how to use the color wheel when making a color scheme.",
 								links: [
@@ -32,7 +32,7 @@ export const designAndUXCollection = {
 					]
 				},
 				{
-					name: "Typography",
+					name: "Decentral",
 					description: {
 						text: "Learn about typography and how to describe fonts.",
 						links: [
@@ -49,9 +49,12 @@ export const designAndUXCollection = {
 							["15 Best Practices To Excellent UI", "https://medium.muz.li/typography-in-mobile-design-15-best-practices-to-excellent-ui-5eaf18280ad"],
 						]
 					},
+				
+			
+			
 					skills: [
 						{
-							name: "Font Size",
+							name: "Open-type",
 							description: {
 								text: "Learn about font sizes and how to choose the right one.",
 								links: [
@@ -64,7 +67,7 @@ export const designAndUXCollection = {
 							},
 						},
 						{
-							name: "Line Spacing",
+							name: "Permission-type",
 							description: {
 								text: "Learn about line spacing and how to choose the right one.",
 								links: [
@@ -78,7 +81,7 @@ export const designAndUXCollection = {
 					]
 				},
 				{
-					name: "C.R.A.P",
+					name: "Application-field",
 					description: {
 						text: "Learn how the C.R.A.P. design principles can help you point out the qualities (or flaws) in a design.",
 						links: [
@@ -92,7 +95,7 @@ export const designAndUXCollection = {
 					},
 					skills: [
 						{
-							name: "Contrast",
+							name: "certification",
 							description: {
 								text: "Learn how the principles of contrast can help you when designing.",
 								links: [
@@ -104,7 +107,7 @@ export const designAndUXCollection = {
 							},
 						},
 						{
-							name: "Repetition",
+							name: "Payment-and-remittance",
 							description: {
 								text: "Learn how the principles of repetition can help you when designing.",
 								links: [
@@ -117,7 +120,7 @@ export const designAndUXCollection = {
 							},
 						},
 						{
-							name: "Alignment",
+							name: "Securities-transaction",
 							description: {
 								text: "Learn how the principles of alignment can help you when designing.",
 								links: [
@@ -129,7 +132,7 @@ export const designAndUXCollection = {
 							},
 						},
 						{
-							name: "Proximity",
+							name: "Smart-Contract-Loan-Investment-Trading",
 							description: {
 								text: "Learn how the principles of proximity can help you when designing.",
 								links: [
@@ -144,7 +147,7 @@ export const designAndUXCollection = {
 					]
 				},
 				{
-					name: "Consistency",
+					name: "Bitcoin",
 					description: {
 						text: "Learn why consistency is one of the most important building-blocks in a design.",
 						links: [
@@ -157,7 +160,7 @@ export const designAndUXCollection = {
 					},
 				},
 				{
-					name: "Spacing",
+					name: "Digital-Note",
 					description: {
 						text: "Learn how to use space in your design.",
 						links: [
@@ -171,7 +174,7 @@ export const designAndUXCollection = {
 					},
 				},
 				{
-					name: "Error Handling",
+					name: "Namecoin",
 					description: {
 						text: "Learn how to improve the user experience by handling errors in an intuitive way.",
 						links: [
@@ -182,7 +185,7 @@ export const designAndUXCollection = {
 					},
 				},
 				{
-					name: "Loading",
+					name: "Mastercoin",
 					description: {
 						text: "Learn how a loading state can improve the user experience.",
 						links: [
@@ -199,7 +202,7 @@ export const designAndUXCollection = {
 					},
 				},
 				{
-					name: "The Golden Ratio",
+					name: "Peercoin",
 					description: {
 						text: "Learn how the golden ratio can help you when choose measurements for your design.",
 						links: [
