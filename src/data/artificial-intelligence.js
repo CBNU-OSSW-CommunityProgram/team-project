@@ -236,6 +236,34 @@ export const artificialintelligence = {
                 ],
               },
             },
+            {
+              name: "pytorch",
+              description: {
+                text: "Learn how to use pseudo selectors.",
+                links: [
+                  [
+                    "MDN - Pseudo-classes",
+                    "https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes",
+                  ],
+                  [
+                    "CSS Tricks - Meet the Pseudo Class Selectors",
+                    "https://css-tricks.com/pseudo-class-selectors/",
+                  ],
+                  [
+                    "When do the :hover, :focus, and :active pseudo-classes apply?",
+                    "https://bitsofco.de/when-do-the-hover-focus-and-active-pseudo-classes-apply/",
+                  ],
+                  [
+                    "W3Schools - CSS Pseudo-elements",
+                    "https://www.w3schools.com/css/css_pseudo_elements.asp",
+                  ],
+                  [
+                    "W3Schools - CSS Pseudo-classes",
+                    "https://www.w3schools.com/css/css_pseudo_classes.asp",
+                  ],
+                ],
+              },
+            },
           ],
         },
       ],
