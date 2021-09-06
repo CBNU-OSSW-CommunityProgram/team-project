@@ -209,7 +209,7 @@ export const artificialintelligence = {
               },
             },
             {
-              name: "Pseudo Selectors",
+              name: "keras",
               description: {
                 text: "Learn how to use pseudo selectors.",
                 links: [
