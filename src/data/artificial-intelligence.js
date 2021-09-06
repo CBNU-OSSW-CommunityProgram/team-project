@@ -156,7 +156,7 @@ export const artificialintelligence = {
           },
         },
         {
-          name: "Selectors",
+          name: "Python",
           description: {
             text: "Learn about CSS selectors and how to effeciently target DOM elements.",
             links: [
