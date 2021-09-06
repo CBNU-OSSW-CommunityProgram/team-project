@@ -1,11 +1,11 @@
 export const artificialintelligence = {
-  name: "Fundamentals",
+  name: "artificial intelligence",
   areas: [
     {
-      name: "HTML",
+      name: "theory",
       skills: [
         {
-          name: "Syntax",
+          name: "Machine Learning",
           description: {
             text: "Learn the basics of HTML and get comfortable with it's syntax and main concepts.",
             links: [
