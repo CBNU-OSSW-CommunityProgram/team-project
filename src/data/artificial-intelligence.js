@@ -1,11 +1,11 @@
 export const artificialintelligence = {
-  name: "Fundamentals",
+  name: "artificial intelligence",
   areas: [
     {
-      name: "HTML",
+      name: "Theory",
       skills: [
         {
-          name: "Syntax",
+          name: "Machine Learning",
           description: {
             text: "Learn the basics of HTML and get comfortable with it's syntax and main concepts.",
             links: [
@@ -25,7 +25,7 @@ export const artificialintelligence = {
           },
           skills: [
             {
-              name: "Basic Tags",
+              name: "CNN",
               description: {
                 text: "Get familiar with the basic HTML tags",
                 links: [
@@ -51,7 +51,7 @@ export const artificialintelligence = {
           ],
         },
         {
-          name: "Forms",
+          name: "Deep Learning",
           description: {
             text: "Learn how to design efficient forms, validating them effectively and keeping the user informed along the way.",
             links: [
@@ -71,7 +71,7 @@ export const artificialintelligence = {
           },
         },
         {
-          name: "SEO",
+          name: "Natural Language Processing",
           description: {
             text: "Learn how to make your content search-friendly.",
             links: [
@@ -89,7 +89,7 @@ export const artificialintelligence = {
           },
           skills: [
             {
-              name: "Discoverable Content",
+              name: "RNN",
               description: {
                 text: "Learn how to structure your HTML in a way that provides a rich experience when sharing it online.",
                 links: [
@@ -113,35 +113,6 @@ export const artificialintelligence = {
               },
             },
           ],
-        },
-        {
-          name: "Svg",
-          description: {
-            text: "Learn how to work with SVG files to make graphics look crisp across all screen resolutions.",
-            links: [
-              [
-                "MDN - Adding vector graphics to the Web",
-                "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web",
-              ],
-              ["SVG on the web", "https://svgontheweb.com/"],
-            ],
-          },
-        },
-        {
-          name: "Best Practices",
-          description: {
-            text: "Learn the best practices of writing HTML.",
-            links: [
-              [
-                "MDN - HTML guidelines",
-                "https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/HTML",
-              ],
-              [
-                "W3Schools - HTML Coding Conventions",
-                "https://www.w3schools.com/html/html5_syntax.asp",
-              ],
-            ],
-          },
         },
       ],
     },
