@@ -283,34 +283,8 @@ export const designAndUXCollection = {
 						}
 					]
 				},
-				{
-					name: "Accessibility",
-					description: {
-						text: "Learn how and why it is important to design for accessibility.",
-						links: [
-							["Designing For Accessibility And Inclusion", "https://www.smashingmagazine.com/2018/04/designing-accessibility-inclusion/"],
-							["Designing for accessibility is not that hard", "https://uxdesign.cc/designing-for-accessibility-is-not-that-hard-c04cc4779d94"],
-							["Designing Accessible Experiences at Scale", "https://theblog.adobe.com/accessibility-design-at-scale/"],
-							["Material Design - Accessibility", "https://material.io/design/usability/accessibility.html#"],
-							["W3C - Designing for Web Accessibility", "https://www.w3.org/WAI/tips/designing/"],
-							["Accessibility in government", "https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/"],
-							["W3C - Visual Presentation", "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-visual-presentation.html"],
-						]
-					},
-				},
-				{
-					name: "Best Practices",
-					description: {
-						text: "Learn about some of the best practices when designing.",
-						links: [
-							["13 Website Design Best Practices For 2019", "https://www.quicksprout.com/website-design-best-practices/"],
-							["Design Best Practices", "https://medium.com/thinking-design/design-best-practices/home"],
-							["Refactoring UI", "https://refactoringui.com/"],
-							["Refactoring UI | CSS Day 2019", "https://www.youtube.com/watch?v=7Z9rrryIOC4"],
-							["Dieter Ram' 10 principles for good design", "https://www.3pillarglobal.com/insights/dieter-rams-10-principles-good-design"],
-						]
-					},
-				}
+				
+				
 			]
 		},
 	]
