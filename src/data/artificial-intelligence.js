@@ -114,35 +114,6 @@ export const artificialintelligence = {
             },
           ],
         },
-        {
-          name: "Svg",
-          description: {
-            text: "Learn how to work with SVG files to make graphics look crisp across all screen resolutions.",
-            links: [
-              [
-                "MDN - Adding vector graphics to the Web",
-                "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web",
-              ],
-              ["SVG on the web", "https://svgontheweb.com/"],
-            ],
-          },
-        },
-        {
-          name: "Best Practices",
-          description: {
-            text: "Learn the best practices of writing HTML.",
-            links: [
-              [
-                "MDN - HTML guidelines",
-                "https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/HTML",
-              ],
-              [
-                "W3Schools - HTML Coding Conventions",
-                "https://www.w3schools.com/html/html5_syntax.asp",
-              ],
-            ],
-          },
-        },
       ],
     },
     {
